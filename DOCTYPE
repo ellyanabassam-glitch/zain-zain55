@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: linear-gradient(to bottom, rgba(0, 70, 150, 0.85), rgba(0, 70, 150, 0.85)), 
+                  url('https://images.unsplash.com/photo-1534126511673-b6899657816a?auto=format&fit=crop&w=800&q=80');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .lang-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      padding: 8px 16px;
+      border: 2px solid white;
+      border-radius: 8px;
+      background: transparent;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    h2 {
+      font-size: 1.2em;
+      margin-bottom: 40px;
+      opacity: 0.9;
+    }
+
+    .btn {
+      background-color: #2E8BFF;
+      border: none;
+      border-radius: 12px;
+      padding: 15px 50px;
+      color: white;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #1a73e8;
+    }
+
+    .login-link {
+      margin-top: 20px;
+      color: white;
+      font-size: 1em;
+    }
+
+    .login-link a {
+      color: white;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+
+  </style>
+</head>
+<body>
+
+  <button class="lang-btn">عربي</button>
+
+  <h2>Your Favorite Way To Pay!</h2>
+
+  <button class="btn">Get Started</button>
+
+  <div class="login-link">
+    Already have an account? <a href="#">Login</a>
+  </div>
+
+</body>
+</html>
